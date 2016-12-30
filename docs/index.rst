@@ -4,20 +4,20 @@ Welcome to Hoodie
 What is Hoodie?
 ---------------
 
-Hoodie is library/server package for frontend web applications that
-abstracts away the backend. If you love working in jQuery, Backbone,
-Dojo, Ember, or any other frontend framework, but *dread* backend work,
-Hoodie is for you.
+Hoodie is backend for web applications with a JavaScript API for your frontend.
+If you love building apps with HTML, CSS and JavaScript or a frontend framework, but *dread* backend work, Hoodie is
+for you.
 
-Hoodie gives your frontend code superpowers, by allowing you to do
-things that usually, only a backend can do (user accounts, emails,
-payments, etc.).
+Hoodie gives your frontend code superpowers by allowing you to do things
+that usually only a backend can do (user accounts, emails, payments,
+etc.).
 
 All of Hoodie is accessible through a simple script include, just like
 jQuery or lodash:
 
 .. code:: html
 
+   <script src="/hoodie/client.js"></script>
    <script type="javascript">
      var hoodie = new Hoodie();
    </script>
@@ -27,17 +27,21 @@ From that point on, things get really powerful really quickly:
 .. code:: javascript
 
     // In your front-end code:
-    hoodie.account.signUp(username, password);
+    hoodie.ready.then(function () {
+      hoodie.account.signUp({
+        username: username,
+        password: password
+      });
+    })
 
 That’s how simple signing up a new user is, for example. But anyway:
 
 **Hoodie is a frontend abstraction of a generic backend web service**.
 As such, it is agnostic to your choice of frontend application
 framework. For example, you can use jQuery for your web app and Hoodie
-for your connection to the backend, instead of raw jQuery.xhr. You could
-also `use Backbone with Hoodie as a data store`_, or any other frontend
-framework, really. There are also efforts to add Hoodie support to
-`Angular`_ and `Ember`_.
+for your connection to the backend, instead of raw jQuery.ajax. You
+could also use Backbone with Hoodie as a data store, or any other
+frontend framework, really.
 
 Open Source
 -----------
@@ -59,9 +63,6 @@ syncing, and where the offline support comes from.
 
 Eager to build stuff? Skip ahead to the `installation guide`_!
 
-.. _use Backbone with Hoodie as a data store: https://github.com/hoodiehq/backbone-hoodie
-.. _Angular: https://www.npmjs.com/package/hoodie-plugin-angularjs
-.. _Ember: https://github.com/gr2m/ember-hoodie-adapter
-.. _could read up on some of the ideological concepts behind Hoodie: /en/hoodieverse/hoodie-concepts.html
-.. _How Hoodie Works: /en/hoodieverse/how-hoodie-works.html
-.. _installation guide: /en/start/
+.. _could read up on some of the ideological concepts behind Hoodie: /camp/hoodieverse/hoodie-concepts.html
+.. _How Hoodie Works: /camp/hoodieverse/how-hoodie-works.html
+.. _installation guide: /camp/start/

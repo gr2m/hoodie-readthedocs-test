@@ -16,7 +16,7 @@ payments, etc.).
 All of Hoodie is accessible through a simple script include, just like
 jQuery or lodash:
 
-.. raw:: html
+.. code:: html
 
    <script type="javascript">
      var hoodie = new Hoodie();

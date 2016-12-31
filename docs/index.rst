@@ -4,12 +4,6 @@ Welcome to Hoodie
 .. toctree::
    :maxdepth: 1
    :hidden:
-
-   index
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
    :caption: About
 
    about/hoodie-concepts

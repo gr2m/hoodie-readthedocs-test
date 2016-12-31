@@ -54,15 +54,3 @@ connection between clients and server can be severed at any time without
 breaking the system. Frontend and backend never talk directly to each
 other. They only leave each other messages and tasks. It’s all very
 loosely-coupled and event-based, and designed for eventual consistency.
-
-Plugins
-~~~~~~~
-
-Hoodie is extendable in all respects: you can extend the frontend
-library, the backend, and Hoodie’s admin panel. Currently, these
-fundamentals come pre-installed:
-
--  user signup and administration
--  data storage
--  data loading & sync
--  data sharing

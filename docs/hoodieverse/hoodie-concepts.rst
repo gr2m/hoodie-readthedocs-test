@@ -1,0 +1,76 @@
+Hoodie’s Fundamental Concepts: Dreamcode, noBackend and Offline First
+=====================================================================
+
+Hoodie was designed around a few core beliefs and concepts, and they
+explain a lot if the choices made in the code and the functionality.
+They are:
+
+-  `Dreamcode`_
+-  `noBackend`_
+-  `Offline First`_
+
+Dreamcode
+~~~~~~~~~
+
+While designing Hoodie’s API, we realised that we wanted to do more than
+simply expose some server code to the frontend. **We wanted to reduce
+complexity, not move it around**. And to make something simple and
+intuitive, you can’t start with the tech stack, you have to start with
+the humans that are going to use it. What would their dream API look
+like? Dreamcode is essentially user-centered design for APIs.
+
+To put it bluntly: **Hoodie’s API is optimized for being awesome**. For
+being intuitive and accessible. And it’s optimized for making the lives
+of frontend developers as good as possible. It’s also an API first: it’s
+a promise - everything else can change or is replaceable. The API is all
+that matters.
+
+Forget all the constraints of today’s browsers. Then write down the code
+of your dreams for all the tasks you need to build your app. The
+implementation behind the API doesn’t matter; it can be simple or tough
+as nails, but crucially: the users shouldn’t have to care. This is
+Dreamcode.
+
+**Everything is hard until someone makes it easy.** We’re making web app
+development easy.
+
+Here’s some further information and links to Dreamcode examples.
+
+noBackend
+~~~~~~~~~
+
+Servers are difficult. Databases are difficult. The interplay between
+client and server is difficult, there are many moving parts, there are
+many entertaining mistakes to make, and **the barrier to entry for web
+app development is, in our mind, needlessly high**. You shouldn’t have
+to be a full stack developer to build a functioning app prototype, or
+code a small tool for yourself or your team, or launch a simple MVP.
+
+People have been building web apps for quite a while now, and their
+basic operations (sign up, sign in, sign out, store and retrieve data,
+etc.) must have been written a million separate times by now. These
+things really shouldn’t be difficult anymore. So we’re proposing Hoodie
+as a noBackend solution.
+
+Yes, a backend does exist, but it doesn’t have to exist in your head.
+You don’t have to plan it or set it up. You simply don’t have to worry
+about it for those basic operations, since you can do all of them with
+Hoodie’s frontend API. Of course, we let you dig as deep as you want,
+but for the start, you don’t have to.
+
+noBackend gives you time to work on the hard problems, the parts of the
+app that are justifiably difficult and non-abstractable, like the
+interface, the user experience, the things that make your product what
+it is.
+
+With Hoodie, you scaffold out your app with
+
+.. raw:: html
+
+   <pre>
+
+<code class=“lang
+
+.. _Dreamcode: #dreamcode
+.. _noBackend: #nobackend
+.. _Offline First: #offline-first

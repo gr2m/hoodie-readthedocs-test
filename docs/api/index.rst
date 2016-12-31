@@ -16,6 +16,17 @@ Hoodie provides two APIs
 The Hoodie Client API
 ~~~~~~~~~~~~~~~~~~~~~
 
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: Client
+
+   client/hoodie
+   client/hoodie.account
+   client/hoodie.store
+   client/hoodie.connection-status
+   client/hoodie.log
+
 This library, commonly called **Hoodie Client**, is what you'll be
 working with on the client side. It consists of:
 

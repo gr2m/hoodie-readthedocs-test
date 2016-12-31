@@ -19,17 +19,17 @@ The Hoodie Client API
 This library, commonly called **Hoodie Client**, is what you'll be
 working with on the client side. It consists of:
 
--  `The Hoodie Client API </client/hoodie>`__, which has
+-  `The Hoodie Client API </api/client/hoodie>`__, which has
    a couple of useful helpers
--  `The account API </client/hoodie.account>`__,
+-  `The account API </api/client/hoodie.account>`__,
    which lets you do user authentication, such as signing users up, in
    and out
--  `The store API </client/hoodie.store>`__,
+-  `The store API </api/client/hoodie.store>`__,
    which provides means to store and retrieve data for each individial
    user
--  `The connectionStatus API </client/hoodie.connection-status>`__,
+-  `The connectionStatus API </api/client/hoodie.connection-status>`__,
    which provides helpers for connectivity.
--  `The log API </client/hoodie.log>`__, which
+-  `The log API </api/client/hoodie.log>`__, which
    provides a nice API for logging all the things
 
 The Hoodie Server API

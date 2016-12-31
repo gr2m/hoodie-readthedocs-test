@@ -2,9 +2,14 @@ Welcome to Hoodie
 =================
 
 .. toctree::
-   :maxdepth: 2
-   
+   :maxdepth: 1
+
    hoodieverse/what-is-hoodie
+   hoodieverse/welcome-to-hoodie
+   hoodieverse/hoodie-concepts
+   hoodieverse/how-hoodie-works
+   hoodieverse/requirements
+   hoodieverse/glossary
    start/index
    tutorials/index
    techdocs/index

@@ -1,15 +1,6 @@
 What is Hoodie?
 ===============
 
-.. toctree::
-   :maxdepth: 2
-
-   welcome-to-hoodie
-   hoodie-concepts
-   how-hoodie-works
-   requirements
-   glossary
-
 Hoodie is backend for web applications with a JavaScript API for your frontend.
 If you love building apps with HTML, CSS and JavaScript or a frontend framework,
 but *dread* backend work, Hoodie is for you.

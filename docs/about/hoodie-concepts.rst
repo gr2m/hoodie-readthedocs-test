@@ -1,5 +1,5 @@
-Hoodie’s Fundamental Concepts: Dreamcode, noBackend and Offline First
-=====================================================================
+Hoodie Concepts
+===============
 
 Hoodie was designed around a few core beliefs and concepts, and they
 explain a lot if the choices made in the code and the functionality.

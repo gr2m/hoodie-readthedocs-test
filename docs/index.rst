@@ -1,6 +1,17 @@
 Welcome to Hoodie
 =================
 
+.. toctree::
+   :maxdepth: 2
+   
+   community
+   deployment
+   hoodieverse
+   plugins
+   start
+   techdocs
+   tutorials
+
 What is Hoodie?
 ---------------
 

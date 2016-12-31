@@ -1,5 +1,5 @@
-hoodie/server
-=============
+Architecture
+============
 
 After `installing hoodie <../guides/quickstart>`__, ``npm start`` will run
 `cli/index.js <https://github.com/hoodiehq/hoodie/blob/master/cli/index.js>`__
@@ -29,11 +29,13 @@ Once everything is setup, the server is then started at the end of
 `cli/start.js <https://github.com/hoodiehq/hoodie/blob/master/cli/start.js>`__
 and the URL where hoodie is running is logged to the terminal.
 
-Architecture
-~~~~~~~~~~~~
+Modules
+~~~~~~~
 
 Hoodie is a server built on top of `hapi <http://hapijs.com>`__ with
-frontend APIs for account and store related tasks.
+frontend APIs for account and store related tasks. It is split up in many small
+modules with the goal to lower the barrier to new code contributors and to
+share maintenance responsibilities.
 
 1. server |server repository| |server build status| |server coverage
    status| |server dependency status|

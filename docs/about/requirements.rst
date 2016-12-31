@@ -1,9 +1,5 @@
-============
 Requirements
 ============
-
-System Requirements and Browser Compatibilities
-===============================================
 
 Before you start working with Hoodie, here’s what you need to know
 regarding your development/server environment and the browsers Hoodie

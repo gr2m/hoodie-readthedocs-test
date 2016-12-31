@@ -1,9 +1,6 @@
 hoodie.account
 ==============
 
-**version:** *> 21.0.0*\  **source:**
-*`hoodie-account-client <https://github.com/hoodiehq/hoodie-account-client>`__*
-
 The account object in the client-side Hoodie API covers all user and
 authentication-related operations, and enables you to do previously
 complex operations, such as signing up a new user, with only a few lines

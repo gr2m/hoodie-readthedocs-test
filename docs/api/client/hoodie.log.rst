@@ -1,9 +1,6 @@
 hoodie.log
 ==========
 
-**version:** *> 21.0.0*\  **source:**
-*`hoodie-log <https://github.com/hoodiehq/hoodie-log>`__*
-
 This is work in progress
 ------------------------
 

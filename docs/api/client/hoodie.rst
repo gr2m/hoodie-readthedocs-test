@@ -1,8 +1,6 @@
 hoodie
 ======
 
-**version:** *> 21.0.0* **source:**
-*`hoodie-client <https://github.com/hoodiehq/hoodie-client>`__*
 
 Introduction
 ------------

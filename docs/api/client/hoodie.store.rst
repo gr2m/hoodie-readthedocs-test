@@ -1,9 +1,6 @@
 hoodie.store
 ============
 
-**version:** *> 21.0.0*\  **source:**
-*`hoodie-store-client <https://github.com/hoodiehq/hoodie-store-client>`__*
-
 If you want to do anything with data in Hoodie, this is where it
 happens.
 

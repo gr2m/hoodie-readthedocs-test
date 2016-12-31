@@ -1,9 +1,6 @@
 hoodie.connectionStatus
 =======================
 
-**version:** *> 21.0.0*\  **source:**
-*`hoodie-connection-status <https://github.com/hoodiehq/hoodie-connection-status>`__*
-
 This is work in progress
 ------------------------
 

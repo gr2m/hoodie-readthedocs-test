@@ -31,5 +31,3 @@ Hoodie Documentation
    about/files-and-folders
    about/requirements
    about/glossary
-
-   api/index

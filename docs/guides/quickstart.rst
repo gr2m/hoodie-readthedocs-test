@@ -1,5 +1,5 @@
-Installing Hoodie on your System
-================================
+Quickstart
+==========
 
 In this guide you’ll learn how to create a demo Hoodie app, learn about the
 basic structure of a Hoodie project and its folders, the endpoints and app URLs
@@ -15,7 +15,7 @@ Make sure you have version 4 or higher. You can find out with
 
 .. code:: bash
 
-    node -v
+    $ node -v
 
 Create a new Hoodie Backend
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -50,16 +50,12 @@ Hoodie is available on GitHub under the Apache License 2.0.
 How to proceed
 --------------
 
-You `could read up on some of the ideological concepts behind Hoodie`_,
+You :doc:`could read up on some of the ideological concepts behind Hoodie <hoodie-concepts>`,
 such as noBackend and Offline First. These explain why Hoodie exists and
 why it looks and works the way it does.
 
 If you’re more interested in the technical details of Hoodie, check out
-`How Hoodie Works`_. Learn how Hoodie handles data storage, does
+:doc:`How Hoodie Works <how-hoodie-works>`. Learn how Hoodie handles data storage, does
 syncing, and where the offline support comes from.
 
-Eager to build stuff? Skip ahead to the `installation guide`_!
-
-.. _could read up on some of the ideological concepts behind Hoodie: /hoodieverse/hoodie-concepts
-.. _How Hoodie Works: /hoodieverse/how-hoodie-works
-.. _installation guide: /start/
+Eager to build stuff? Skip ahead to the :doc:`installation guide </start/index>`!

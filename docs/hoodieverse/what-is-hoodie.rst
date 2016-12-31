@@ -2,8 +2,8 @@ What is Hoodie?
 ===============
 
 Hoodie is backend for web applications with a JavaScript API for your frontend.
-If you love building apps with HTML, CSS and JavaScript or a frontend framework, but *dread* backend work, Hoodie is
-for you.
+If you love building apps with HTML, CSS and JavaScript or a frontend framework,
+but *dread* backend work, Hoodie is for you.
 
 Hoodie gives your frontend code superpowers by allowing you to do things
 that usually only a backend can do (user accounts, emails, payments,
@@ -28,7 +28,7 @@ From that point on, things get really powerful really quickly:
       hoodie.account.signUp({
         username: username,
         password: password
-      });
+      })
     })
 
 That’s how simple signing up a new user is, for example. But anyway:
@@ -37,8 +37,8 @@ That’s how simple signing up a new user is, for example. But anyway:
 As such, it is agnostic to your choice of frontend application
 framework. For example, you can use jQuery for your web app and Hoodie
 for your connection to the backend, instead of raw jQuery.ajax. You
-could also use Backbone with Hoodie as a data store, or any other
-frontend framework, really.
+could also use React with Hoodie as a data store, or any other
+frontend framework or library, really.
 
 Open Source
 -----------
@@ -60,6 +60,6 @@ syncing, and where the offline support comes from.
 
 Eager to build stuff? Skip ahead to the `installation guide`_!
 
-.. _could read up on some of the ideological concepts behind Hoodie: /camp/hoodieverse/hoodie-concepts.html
-.. _How Hoodie Works: /camp/hoodieverse/how-hoodie-works.html
-.. _installation guide: /camp/start/
+.. _could read up on some of the ideological concepts behind Hoodie: /hoodieverse/hoodie-concepts
+.. _How Hoodie Works: /hoodieverse/how-hoodie-works
+.. _installation guide: /start/

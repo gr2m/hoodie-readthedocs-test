@@ -3,6 +3,7 @@ What is Hoodie?
 
 .. toctree::
    :maxdepth: 1
+   :hidden:
 
    welcome-to-hoodie
    hoodie-concepts

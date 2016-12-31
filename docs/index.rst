@@ -3,7 +3,7 @@ Welcome to Hoodie
 
 .. toctree::
    :maxdepth: 2
-
+   
    hoodieverse/what-is-hoodie
    start/index
    tutorials/index

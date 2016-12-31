@@ -103,5 +103,5 @@ or `ask a question on StackOverflow`_
 .. _nodejs.org: https://nodejs.org/
 .. _npm: https://www.npmjs.com/
 .. _chat with us: http://hood.ie/chat/
-.. _ask a qustion on StackOverflow: https://stackoverflow.com/questions/ask?tags=hoodie
+.. _ask a question on StackOverflow: https://stackoverflow.com/questions/ask?tags=hoodie
 .. _Hoodie Tracker App: https://github.com/hoodiehq/hoodie-app-tracker
